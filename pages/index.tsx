@@ -7,7 +7,7 @@ const Home: NextPage = () => {
             <Head>
                 <title>ADMIN TEST</title>
             </Head>
-            <div>HOME!!</div>
+            <div>프리텐다드 글자 적용 확인</div>
         </>
     );
 };
