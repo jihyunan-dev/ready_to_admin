@@ -1,24 +1,27 @@
 import React, { useContext, createContext } from 'react';
-import CounterStore from './CounterStore';
+import Link from '../model/Link';
+import Profile from '../model/Profile';
+import OwnerStore from './OwnerStore';
 
-type Counter = {
-    number: number;
-    increaseNumber: () => void;
-    decreaseNumber: () => void;
+type Owner = {
+    profile: Profile;
+    links: Link[];
+    setProfile: (profile: Profile) => void;
+    setLinks: (links: Link[]) => void;
 };
 
-export const CounterContext = createContext<Counter>(CounterStore);
+export const OwnerContext = createContext<Owner>(OwnerStore);
 
 const GlobalProvider = ({ children }: { children: any }) => {
     return (
-        <CounterContext.Provider value={CounterStore}>
+        <OwnerContext.Provider value={OwnerStore}>
             {children}
-        </CounterContext.Provider>
+        </OwnerContext.Provider>
     );
 };
 export default GlobalProvider;
 
-export const useCounter = () => {
-    const counterContext = useContext(CounterContext);
-    return counterContext;
+export const useOwner = () => {
+    const ownerContext = useContext(OwnerContext);
+    return ownerContext;
 };
