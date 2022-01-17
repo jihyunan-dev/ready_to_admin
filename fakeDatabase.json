@@ -1,0 +1,90 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "userId": "aaa1",
+            "username": "elena",
+            "email": "aaa@aaa.com"
+        },
+        {
+            "id": 2,
+            "userId": "bbb2",
+            "username": "clare",
+            "email": "bbb@bbb.com"
+        },
+        {
+            "id": 3,
+            "userId": "ccc3",
+            "username": "tom",
+            "email": "ccc@ccc.com"
+        },
+        { "id": 4, "userId": "ddd4", "username": "joy", "email": "ddd@ddd.com" }
+    ],
+    "links": [
+        {
+            "id": "link1",
+            "title": "링크1",
+            "subtitle": "링크설명1",
+            "url": "https://naver.com",
+            "owner": 1
+        },
+        {
+            "id": "link2",
+            "title": "링크2",
+            "subtitle": "링크설명2",
+            "url": "https://naver.com",
+            "owner": 4
+        },
+        {
+            "id": "link3",
+            "title": "링크3",
+            "subtitle": "링크설명3",
+            "url": "https://naver.com",
+            "owner": 4
+        },
+        {
+            "id": "link4",
+            "title": "링크4",
+            "subtitle": "링크설명4",
+            "url": "https://naver.com",
+            "owner": 2
+        },
+        {
+            "id": "link5",
+            "title": "링크5",
+            "subtitle": "링크설명5",
+            "owner": 4
+        },
+        { "id": "link6", "title": "링크6", "subtitle": "링크설명6", "owner": 1 }
+    ],
+    "snss": [
+        {
+            "id": "sns1",
+            "title": "인스타그램1",
+            "type": "instagram",
+            "url": "https://naver.com",
+            "owner": 4
+        },
+        {
+            "id": "sns2",
+            "title": "facebook1",
+            "type": "facebook",
+            "url": "https://naver.com",
+            "owner": 3
+        },
+        {
+            "id": "sns3",
+            "title": "youtube1",
+            "type": "youtube",
+            "url": "https://naver.com",
+            "owner": 2
+        },
+        {
+            "id": "sns4",
+            "title": "facebook2",
+            "type": "facebook",
+            "url": "https://naver.com",
+            "owner": 2
+        }
+    ]
+}
