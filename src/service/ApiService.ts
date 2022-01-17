@@ -5,7 +5,7 @@ export default class ApiService {
 
     constructor(baseUrl: string) {
         this.client = axios.create({
-            baseURL: `http://localhost:3001${baseUrl}`,
+            baseURL: `http://localhost:5000${baseUrl}`,
         });
 
         this.client.interceptors.request.use();
